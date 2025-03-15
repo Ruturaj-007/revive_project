@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",  // Base URL is the root of your project
     "paths": {
-      "@@/*": ["./*"]
+      "@/*": ["./*"]  // This points to any files inside the root directory
     }
   }
 }
